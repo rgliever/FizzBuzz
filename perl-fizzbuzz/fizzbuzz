@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+# Ryan Gliever
+# FizzBuzz in Perl
+
+use strict;
+use warnings;
+
+print(($_%3?'':"Fizz").($_%5?'':"Buzz")||$_, "\n") for 1..100
